@@ -66,12 +66,14 @@
   </nav>
 
   <header class="masthead">
-    <div class="container h-100">
-      <div class="row h-100">
-	<div class="col-lg-7 my-auto">
-	  <div class="header-content mx-auto">
-	    <h1 class="mb-5">Turn your image into art</h1>
-	    
+    <div class="header-content" style="margin-left: 62px">
+      <div class="container h-100">
+	<div class="row h-100">
+	  <div class="col-lg-7 my-auto">
+	    <div class="" style="max-width: 100%; display: inline-block; margin-right: 40px; margin-bottom: 25px">
+	      <img src="static/img/index2.png" width="500px">
+	    </div>
+	    <h1>Try With Your Own Image</h1>
 	    <form id="upload-form"  action="{{url_for('upload_content')}}" method="POST" enctype="multipart/form-data">
 	      <label class="custom-file-upload">
 		Choose Content
@@ -80,10 +82,10 @@
 	      <input type="submit" class="btn btn-outline btn-xl js-scroll-trigger" value="submit" id="upload-button">
 	    </form>
 	    <div id="file-upload-filename"></div>
-	  </div>
+	</div>
 	</div>
       </div>
-    </div>
+      </div>
   </header>
 
   <section class="contact bg-primary" id="contact">
@@ -93,7 +95,7 @@
         connect!</h2>
       <ul class="list-inline list-social">
         <li class="list-inline-item social-twitter">
-          <a href="https://github.com/KatyaKalache/style_transferhttps://github.com/KatyaKalache/style_transfer">
+          <a href="https://github.com/KatyaKalache/style_transfer">
             <i class="fab fa-github"></i>
           </a>
         </li>
