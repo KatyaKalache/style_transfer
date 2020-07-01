@@ -1,14 +1,18 @@
-## Description
-Neural Style Transfer
+## What’s this project for?
 
 ![index2.png](https://github.com/KatyaKalache/style_transfer/blob/master/html/static/img/index2.png)
+As I am completing my 2-year program at Holberton School where I picked Machine Learning as a specialization, I wanted to leverage the web & machine learning skills I learned to build something cool. Which is how this neural style transfer project came to be.
+You can go on (www.style-transfer.tech) to try it.
+👩‍💻🔍 I am looking for a machine learning position. I am ready to start whenever. I live in San Francisco but am willing to take a remote position.
 
 
-## Dependencies
+## Dependencies for this project
+I used a number of different open-source tools ❤️ to build this website. Here are some of them
 * Tensorflow
 * NumPy
 * Vgg19
 * OpenCV
+* Bootstrap
 
 ## Process
 0. Upload and preprocess images
