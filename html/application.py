@@ -74,13 +74,12 @@ class APP:
         content_image = cv2.imread(destination_content)
         style_image = cv2.imread(destination_style)
         nst = NST(style_image, content_image)
-        generated_image, cost = nst.generate_image(iterations=200, step=1, lr=0.002)
+        generated_image, cost = nst.generate_image(iterations=50, step=1, lr=0.002)
         mpimg.imsave(target + 'gen_'+filename_content, generated_image)
         pictures["gen"] = 'gen_'+filename_content
         pic_gen_name = pictures["gen"]
         generated_pic = cv2.imread(target + 'gen_'+filename_content)
         images = os.listdir(target)
-        print("Best cost:", cost)
         return render_template("content_style.html",
                                images=images,
                                pictures = pictures,
