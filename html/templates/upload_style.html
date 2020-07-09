@@ -72,7 +72,7 @@
       </li>
       {% endfor %}
     </ul>
-
+    <h1>    Training takes at least 15mins to see a significant result: I reduced the number of iteration to 100 to achieve some style transfer within this time frame. For best result I repeat the training process at 2000 iterations: requires 2 hours of training time.</h1>
     <form id="upload-style-form"  action="{{url_for('show_content_style')}}" method="POST" enctype="multipart/form-data">
       <input type="submit" class="btn btn-outline btn-xl js-scroll-trigger" value=" Start Training" id="upload-button">
     </form>

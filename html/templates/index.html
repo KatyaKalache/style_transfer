@@ -66,28 +66,23 @@
   </nav>
 
   <header class="masthead">
-    <div class="header-content" style="margin-left: 62px">
-      <div class="container h-100">
-	<div class="row h-100">
-	  <div class="col-lg-7 my-auto">
-	    <div class="" style="max-width: 100%; display: inline-block; margin-right: 40px; margin-bottom: 25px">
-	      <img src="static/img/index2.png" width="500px">
-	    </div>
-	    <h1>Try With Your Own Image</h1>
-	    <form id="upload-form"  action="{{url_for('upload_content')}}" method="POST" enctype="multipart/form-data">
-	      <label class="custom-file-upload">
-		Choose Content
-		<input type="file" id="imageFile" class="uploadFile" name="file"  accept="image/*">
-	      </label>
-	      <input type="submit" class="btn btn-outline btn-xl js-scroll-trigger" value="submit" id="upload-button">
-	    </form>
-	    <div id="file-upload-filename"></div>
-	</div>
-	</div>
-      </div>
-      </div>
+    <div style="display: inline-block; margin-right: 40px; margin-bottom: 25px; width:550px">
+      <img src="static/img/index2.png" width="500px">
+      <h1>Try With Your Own Image</h1>
+      <form id="upload-form"  action="{{url_for('upload_content')}}" method="POST" enctype="multipart/form-data">
+	<label class="custom-file-upload">
+	  Choose Content
+	  <input type="file" id="imageFile" class="uploadFile" name="file"  accept="image/*">
+	</label>
+	<input type="submit" class="btn btn-outline btn-xl js-scroll-trigger" value="submit" id="upload-button">
+      </form>
+            <div id="file-upload-filename"></div>
+    </div>
+    <div style="height:485px; width:739px;overflow:auto; display:inline-block;">
+      <script src="https://gist.github.com/KatyaKalache/620869710d87b78ed726a53528ac0f0a.js"></script>
+    </div>
   </header>
-
+  
   <section class="contact bg-primary" id="contact">
     <div class="container">
       <h2>Let's
@@ -133,6 +128,7 @@
   <!-- Bootstrap core JavaScript -->
   <script src="static/vendor/jquery/jquery.min.js"></script>
   <script src="static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
 
   <!-- Plugin JavaScript -->
   <script src="static/vendor/jquery-easing/jquery.easing.min.js"></script>
