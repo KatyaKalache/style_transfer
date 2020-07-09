@@ -39,4 +39,4 @@ I used a number of different open-source tools ❤️ to build this website. Her
 * gradient descent is performed using Adam optimization
 * keeping track of the best cost and the image associated with that cost
 
-Ekaterina Kalache: [github account](https://github.com/KatyaKalache), [linkedin](https://www.linkedin.com/in/ekaterinakalache/), [twitter](https://twitter.com/KatyaKalache)
+Ekaterina Kalache: [github](https://github.com/KatyaKalache), [linkedin](https://www.linkedin.com/in/ekaterinakalache/), [twitter](https://twitter.com/KatyaKalache)
