@@ -1,4 +1,4 @@
-![readme photo](/html/static/img/new_index.png)
+![readme photo](/html/static/img/index2.png)
 ## What’s this project for?
 
 As I am completing my 2-year program at Holberton School where I picked Machine Learning as a specialization, I wanted to leverage the web & machine learning skills I learned to build something cool. Which is how this neural style transfer project came to be.
