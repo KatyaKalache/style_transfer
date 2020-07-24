@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <style>
+    input[type="file"] {
+    display: none;
+    }
+    .custom-file-upload {
+      width: 35%;
+      height: 50px;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border: 1px solid;
+      border-color: white;
+      background-color: white;
+      color: #fd6f52;
+      font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+      letter-spacing: 1px;
+      cursor: pointer;
+    }
+  </style>
+  <title>Neural Style Transfer</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="static/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="static/vendor/simple-line-icons/css/simple-line-icons.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+
+  <!-- Plugin CSS -->
+  <link rel="stylesheet" href="static/device-mockups/device-mockups.min.css">
+  <!-- Custom styles for this template -->
+  <link href="static/css/new-age.min.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Restyle Your Image</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+	Menu
+	<i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+	<ul class="navbar-nav ml-auto">
+	  <li class="nav-item">
+	    <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+	  </li>
+	</ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="masthead">
+    <div style="display: inline-block; margin-right: 40px; margin-bottom: 25px; width:550px">
+      <img src="static/img/index2.png" width="500px">
+      <h1>Try With Your Own Image</h1>
+      <form id="upload-form"  action="{{url_for('upload_content')}}" method="POST" enctype="multipart/form-data">
+	<label class="custom-file-upload">
+	  Choose Content
+	  <input type="file" id="imageFile" class="uploadFile" name="file"  accept="image/*">
+	</label>
+	<input type="submit" class="btn btn-outline btn-xl js-scroll-trigger" value="submit" id="upload-button">
+      </form>
+            <div id="file-upload-filename"></div>
+    </div>
+    <div style="height:485px; width:739px;overflow:auto; display:inline-block;">
+      <script src="https://gist.github.com/KatyaKalache/620869710d87b78ed726a53528ac0f0a.js"></script>
+    </div>
+  </header>
+  
+  <section class="contact bg-primary" id="contact">
+    <div class="container">
+      <h2>Let's
+        <i class="fas fa-heart"></i>
+        connect!</h2>
+      <ul class="list-inline list-social">
+        <li class="list-inline-item social-twitter">
+          <a href="https://github.com/KatyaKalache/style_transfer">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+        <li class="list-inline-item social-facebook">
+          <a href="https://www.linkedin.com/in/ekaterinakalache/">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li class="list-inline-item social-google-plus">
+          <a href="mailto:katya@kalache.fr?">
+            <i class="fab fa-google"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; NST 2020. All Rights Reserved.</p>
+      <ul class="list-inline">
+        <li class="list-inline-item">
+          <a href="#">Privacy</a>
+        </li>
+        <li class="list-inline-item">
+          <a href="#">Terms</a>
+        </li>
+        <li class="list-inline-item">
+          <a href="#">FAQ</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="static/vendor/jquery/jquery.min.js"></script>
+  <script src="static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+  <!-- Plugin JavaScript -->
+  <script src="static/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="static/js/new-age.min.js"></script>
+  <script>
+    var input = document.getElementById('imageFile');
+    var infoArea = document.getElementById('file-upload-filename');
+    input.addEventListener('change', showFileName);
+    function showFileName(event) {
+    // the change event gives us the input it occurred in
+    var input = event.srcElement;
+    var fileName = input.files[0].name;
+    if (fileName.length == 0) {
+    alert("error");
+    }
+    infoArea.textContent = fileName;
+    };
+  </script>
+</body>
+</html>
