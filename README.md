@@ -5,9 +5,7 @@ I did [Holberton School](https://www.holbertonschool.com/) 2-year software engin
 1. 🚕 QA Engineer at Uber
 1. 📈 Software Developer at OSIsoft (recently acquired by Areva for $4B).
 
-Find me on:
-* [linkedin](https://www.linkedin.com/in/ekaterinakalache/)
-* [twitter](https://twitter.com/KatyaKalache)
+You can reach out to met via email (ekaterina@kalache.fr) or [linkedin](https://www.linkedin.com/in/ekaterinakalache/).
 
 I wanted to leverage the web & machine learning skills I learned to build something cool. Which is how this fun neural style transfer project came to be: www.style-transfer.tech
 
