@@ -1,9 +1,8 @@
-![readme photo](https://i.imgur.com/gQVOMvb.png)
 
-👩‍💻🔍 I am looking for a machine learning position – I live in San Francisco but am willing to take a remote position.
+👩‍💻🔍 I am looking for a machine learning, computer vision position – I live in San Francisco but am willing to take a remote position.
 
-I did [Holberton School](https://www.holbertonschool.com/) 2-year software engineering program where I picked Machine Learning as a specialization. In between the 2 years, I did 2 internships: 
-1. QA Engineer atUber
+I did [Holberton School](https://www.holbertonschool.com/) 2-year software engineering program where I picked machine learning as a specialization. In between the 2 years of the program, I did 2 internships: 
+1. QA Engineer at Uber
 1. Software Developer at OSIsoft (recently acquired by Areva for $4B).
 
 Find me on:
@@ -12,7 +11,9 @@ Find me on:
 
 I wanted to leverage the web & machine learning skills I learned to build something cool. Which is how this fun neural style transfer project came to be: www.style-transfer.tech
 
-I used a number of different open-source tools ❤️ to build this website: Tensorflow, NumPy, Vgg19, OpenCV and Bootstrap.
+I used a number of different open-source tools  ❤️  to build this website: Tensorflow, NumPy, Vgg19, OpenCV and Bootstrap.
+
+![readme photo](https://i.imgur.com/gQVOMvb.png)
 
 ## Project's flow
 0. Upload and preprocess images
