@@ -13,7 +13,7 @@ I wanted to leverage the web & machine learning skills I learned to build someth
 
 I used a number of different open-source tools  ❤️  to build this website: Tensorflow, NumPy, Vgg19, OpenCV and Bootstrap.
 
-![readme photo](https://i.imgur.com/gQVOMvb.png)
+![readme photo]([https://i.imgur.com/jKeqXBy.jpg)
 
 ## Project's flow
 0. Upload and preprocess images
