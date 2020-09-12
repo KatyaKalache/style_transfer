@@ -2,8 +2,8 @@
 👩‍💻🔍 I am looking for a machine learning, computer vision position – I live in San Francisco but am willing to take a remote position.
 
 I did [Holberton School](https://www.holbertonschool.com/) 2-year software engineering program where I picked machine learning as a specialization. In between the 2 years of the program, I did 2 internships: 
-1. QA Engineer at Uber
-1. Software Developer at OSIsoft (recently acquired by Areva for $4B).
+1. 🚕 QA Engineer at Uber
+1. 📈 Software Developer at OSIsoft (recently acquired by Areva for $4B).
 
 Find me on:
 * [linkedin](https://www.linkedin.com/in/ekaterinakalache/)
