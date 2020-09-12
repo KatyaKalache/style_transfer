@@ -1,21 +1,20 @@
-![readme photo](/html/static/img/index2.png)
-## What’s this project for?
+![readme photo](https://i.imgur.com/gQVOMvb.png)
 
-As I am completing my 2-year program at Holberton School where I picked Machine Learning as a specialization, I wanted to leverage the web & machine learning skills I learned to build something cool. Which is how this neural style transfer project came to be.
-You can visit project link at www.style-transfer.tech to try it.
+👩‍💻🔍 I am looking for a machine learning position – I live in San Francisco but am willing to take a remote position.
 
-👩‍💻🔍 I am looking for a machine learning position. I am ready to start whenever. I live in San Francisco but am willing to take a remote position.
+I did [Holberton School](https://www.holbertonschool.com/) 2-year software engineering program where I picked Machine Learning as a specialization. In between the 2 years, I did 2 internships: 
+1. QA Engineer atUber
+1. Software Developer at OSIsoft (recently acquired by Areva for $4B).
 
+Find me on:
+* [linkedin](https://www.linkedin.com/in/ekaterinakalache/)
+* [twitter](https://twitter.com/KatyaKalache)
 
-## Dependencies for this project
-I used a number of different open-source tools ❤️ to build this website. Here are some of them
-* Tensorflow
-* NumPy
-* Vgg19
-* OpenCV
-* Bootstrap
+I wanted to leverage the web & machine learning skills I learned to build something cool. Which is how this fun neural style transfer project came to be: www.style-transfer.tech
 
-## Process
+I used a number of different open-source tools ❤️ to build this website: Tensorflow, NumPy, Vgg19, OpenCV and Bootstrap.
+
+## Project's flow
 0. Upload and preprocess images
 * rescale both content and style images to equal shape: image's pixels values are between 0 and 1 and its largest side is 512 pixels
 * store as a numpy.ndarray
@@ -39,4 +38,4 @@ I used a number of different open-source tools ❤️ to build this website. Her
 * gradient descent is performed using Adam optimization
 * keeping track of the best cost and the image associated with that cost
 
-Ekaterina Kalache: [github account](https://github.com/KatyaKalache), [linkedin](https://www.linkedin.com/in/ekaterinakalache/), [twitter](https://twitter.com/KatyaKalache)
+
