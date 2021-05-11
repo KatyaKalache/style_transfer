@@ -1,13 +1,6 @@
 
-👩‍💻🔍 I am looking for a backend position – I live in San Francisco but am willing to take a remote position.
-
-I did [Holberton School](https://www.holbertonschool.com/) 2-year software engineering program that trains full-stack software engineers. In between the 2 years of the program, I did 2 internships: 
-1. 🚕 QA Engineer at Uber (Jest, Javascript)
-1. 📈 Software Developer at OSIsoft (recently acquired by Areva for $4B) (C#, Javascript, Bootstrap).
-
-You can reach out to met via [email](mailto:ekaterina@kalache.fr) or [linkedin](https://www.linkedin.com/in/ekaterinakalache/).
-
-I wanted to leverage the web & machine learning skills I learned to build something cool. Which is how this fun neural style transfer project came to be: www.style-transfer.tech
+👩‍💻🔍
+For this project I wanted to leverage the web & machine learning skills I learned to build something cool. Which is how this fun neural style transfer project came to be: www.style-transfer.tech (server is stopped at the moment, I can start it upon request)
 
 I used a number of different open-source tools  ❤️   to build this website: Tensorflow, NumPy, Vgg19, OpenCV and Bootstrap.
 
